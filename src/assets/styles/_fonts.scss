@@ -7,6 +7,7 @@ $fw--bold: 700;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: $fw--normal;
+    font-display: swap;
     src: url('https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2') format('woff2');
 }
 
@@ -14,5 +15,6 @@ $fw--bold: 700;
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 700;
+    font-display: swap;
     src: url('https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBic6CsTYl4BO.woff2') format('woff2');
 }

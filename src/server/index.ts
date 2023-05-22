@@ -1,7 +1,7 @@
 import express from 'express';
 import helmet from 'helmet';
 import nocache from 'nocache';
-// import compression from 'compression';
+import compression from 'compression';
 import rateLimit from 'express-rate-limit';
 
 import Logger from 'src/server/utils/logger';
@@ -39,7 +39,7 @@ if (isProduction) {
 app.use(nocache());
 app.use(logging(isProduction));
 app.use(methodDetermination);
-//app.use(compression());
+app.use(compression());
 app.use(express.static(staticPath, { dotfiles: 'ignore' }));
 
 app.use((req, res, next) => {
