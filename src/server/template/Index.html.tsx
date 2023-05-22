@@ -69,6 +69,7 @@ const Index: FunctionComponent<IIndexProps> = (props: IIndexProps) => {
                 />
 
                 <link rel="manifest" href="/manifest.json" />
+                <link rel="preload" href="/Kamino.jpg" as="image"/>
             </head>
             <body>
                 <div id="root">

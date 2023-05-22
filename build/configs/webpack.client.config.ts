@@ -18,8 +18,8 @@ import {
 import getStyleLoader from 'build/loader/style.loader';
 
 export default (): Configuration => ({
-    mode: isProduction ? Mode.DEVELOPMENT : Mode.DEVELOPMENT,
-    devtool: 'inline-source-map',
+    mode: isProduction ? Mode.PRODUCTION : Mode.DEVELOPMENT,
+    devtool: isProduction ? false : 'inline-source-map',
     context: resolve(__dirname, 'src'),
     entry: {
         bundle: 'src/client',
@@ -85,7 +85,7 @@ export default (): Configuration => ({
     ],
     optimization: {
         chunkIds: isProduction ? 'natural' : 'named',
-        minimize: false,
+        minimize: isProduction,
         splitChunks: {
             cacheGroups: {
                 vendor: {
