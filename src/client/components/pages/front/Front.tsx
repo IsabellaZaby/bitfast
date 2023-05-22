@@ -16,13 +16,7 @@ const Front: FunctionComponent = () => {
         fetch('https://swapi.dev/api/planets/')
             .then((res) => res.json())
             .then((data) => {
-                const results: IPlanet[] = [];
-                data.results.forEach((planet: IPlanet, index: number) => {
-                    setTimeout(() => {
-                        results.push(planet);
-                        setPlanets([...results]);
-                    }, index * 50);
-                });
+                setPlanets([...data.results]);
             });
     }, []);
 

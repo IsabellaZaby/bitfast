@@ -20,7 +20,7 @@ const Card: FunctionComponent<Props> = (props) => {
                     {props.planet.terrain}
                 </p>
                 <img
-                    src={`${props.planet.name.split(' ')[0]}.jpg`}
+                    src={`${props.planet.name.split(' ')[0]}-small.jpg`}
                     alt={`a planet that is not really ${props.planet.name}`}
                     width={300}
                     height={225}
