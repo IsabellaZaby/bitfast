@@ -1,18 +1,9 @@
-@keyframes expensive-animation {
-    0% {
-        text-transform: none;
-    }
-    100% {
-        text-transform: capitalize;
-    }
-}
-
 .navigation {
     margin: 1rem 0.5rem;
     padding: 1rem;
     background: var(--color-layout);
     border-radius: 15px;
-    animation: expensive-animation 100ms ease-in-out infinite;
+    text-transform: capitalize;
 
     a {
         color: var(--color-highlight);
