@@ -1,0 +1,11 @@
+html,
+body {
+    background-color: var(--color-background);
+    font-family: var(--font-default);
+    -webkit-font-smoothing: antialiased;
+    color: var(--color-font);
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1.618;
+}

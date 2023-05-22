@@ -1,0 +1,9 @@
+.layout {
+    display: grid;
+    align-content: space-around;
+
+    @media screen and (min-width: 1024px) {
+        margin: 0 auto;
+        width: calc(1024px - 2rem);
+    }
+}

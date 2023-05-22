@@ -1,0 +1,18 @@
+// Base font-weight
+$fw--normal: 400;
+// Bold font-weight
+$fw--bold: 700;
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: $fw--normal;
+    src: url('https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBic6CsTYl4BO.woff2') format('woff2');
+}

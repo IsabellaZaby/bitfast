@@ -1,0 +1,15 @@
+.planet {
+    background: var(--color-layout);
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    img {
+        max-width: 100%;
+    }
+}

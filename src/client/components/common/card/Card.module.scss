@@ -1,0 +1,21 @@
+.card {
+    display: block;
+    padding: 1rem 0.5rem;
+    background: var(--color-layout);
+    width: 300px;
+    border-radius: 15px;
+
+    h2 {
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    img {
+        width: 300px;
+        border-radius: 9px;
+        margin-top: 2rem;
+    }
+}

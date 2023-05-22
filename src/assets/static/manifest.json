@@ -1,0 +1,25 @@
+{
+    "name": "BitFast",
+    "short_name": "BitFast",
+    "description": "this application is just a ... bit fast...",
+    "author": "Christian Oberhamberger",
+    "version": "1.0.1",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "id": "/",
+    "lang": "en",
+    "dir": "ltr",
+    "display": "standalone",
+    "orientation": "any"
+}

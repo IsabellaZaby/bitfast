@@ -1,0 +1,30 @@
+:root {
+    --color-background-light: rgb(255, 255, 255);
+    --color-font-light: #1b1f2a;
+
+    --color-background-dark: #1b1f2a;
+    --color-font-dark: #faf2e2;
+
+    --color-highlight-light: #1d47bc;
+    --color-highlight-dark: #f50;
+
+    --color-layout-light: #f7f7f7;
+    --color-layout-dark: #2c3243;
+
+    --color-background: var(--color-background-light);
+    --color-font: var(--color-font-light);
+    --color-highlight: var(--color-highlight-light);
+    --color-layout: var(--color-layout-light);
+
+    @media (prefers-color-scheme: dark) {
+        --color-background: var(--color-background-dark);
+        --color-font: var(--color-font-dark);
+        --color-highlight: var(--color-highlight-dark);
+        --color-layout: var(--color-layout-dark);
+    }
+
+    --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+    --font-default: 'Roboto', var(--font-system);
+}
