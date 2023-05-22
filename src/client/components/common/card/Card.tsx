@@ -22,6 +22,8 @@ const Card: FunctionComponent<Props> = (props) => {
                 <img
                     src={`${props.planet.name.split(' ')[0]}.jpg`}
                     alt={`a planet that is not really ${props.planet.name}`}
+                    width={300}
+                    height={225}
                 />
             </article>
         </>
